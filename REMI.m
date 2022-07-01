@@ -7,7 +7,7 @@ addpath(genpath('C:\Program Files\IBM\ILOG\CPLEX_Studio128')); % add your CPLEX 
 initCobraToolbox
 
 % load iQY486 model
-load('E:\bioinformatics\new_Azo_for_h2o2_1.mat'); 
+load('E:\bioinformatics\iWH1038_h2o2.mat'); 
 
 % Add relative expression constraint 
 % (1) load relative expression data
