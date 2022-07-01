@@ -1,4 +1,4 @@
-load('E:\bioinformatics\new_Azo_for_h2o2_1.mat'); 
+load('E:\bioinformatics\iWH1038_for_h2o2_1.mat'); 
 model = readCbModel('E:\bioinformatics\new_Azo_for_h2o2_1.mat')
 model.rev = Azorhizobium_caulinodans_ORS_571.rev
 FBA = optimizeCbModel(Azorhizobium_caulinodans_ORS_571);
